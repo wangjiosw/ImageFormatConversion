@@ -8,6 +8,7 @@ import cv2
 import os
 import sys
 
+# get output img format
 outImgType = '.'+sys.argv[1]
 
 in_path = 'input'

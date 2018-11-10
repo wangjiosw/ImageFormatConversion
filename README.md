@@ -1,8 +1,24 @@
-# ImageFormatConversion
-使用python+opencv批量转换图片为任意格式(bmp,jpg,png...)
+# Image format conversion
+- convert images to any opencv support format (bmp, jpg, png...)<br>
+- Put the image to be converted in the input folder (you can put images in any format at the same time)<br>
+- The converted image is saved in the output folder
 
-- 将要转换的图片放在input文件夹中(input中可以同时存放任意格式的图片) 
 
-- python img2.py 输出图片格式 (e.g. python img2.py jpg) 
+# Environment
+- python 2.7
+- opencv
 
-- 转换后的图片保存在output文件夹中 
+# Run
+
+## convert images format to png
+ ` python img2.py png `
+
+ ## convert images format to bmp
+ ` python img2.py bmp `
+
+ ## convert images format to jpg
+ ` python img2.py jpg `
+
+ ## ...
+
+
